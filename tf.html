@@ -20,7 +20,7 @@ async function start() {
     // const proxyurl = "https://cors-anywhere.herokuapp.com/";
     // const url = 'https://github.com/sreeragrnandan/model/tree/master/tfjs'
     // const model_URL = fetch(proxyurl + url)
-    const model = await tf.loadLayersModel("https://github.com/sreeragrnandan/model/tree/master/tfjs/model.json");
+    const model = await tf.loadLayersModel("./tfjs/model.json");
         // JavaScript
         maxPredictions = model.getTotalClasses();
         
